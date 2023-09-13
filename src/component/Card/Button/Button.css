@@ -1,0 +1,17 @@
+.button{
+    
+    border: 2px solid chartreuse;
+    /* background-color: white; */
+    color: #006600;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color:#00b300;
+    color:white ;
+    cursor: pointer;
+}
