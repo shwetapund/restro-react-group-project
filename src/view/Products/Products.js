@@ -1,5 +1,4 @@
 import Navbar from "./../../component/Navbar/Navbar";
-import Veg from "./Vegeterian/Vegeterian";
 export default function Product(){
     return(
         <>
