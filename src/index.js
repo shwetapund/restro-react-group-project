@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Card from './component/Card/Card';
+
+
 // import {
 //   createBrowserRouter,
 //   RouterProvider,
@@ -33,7 +34,7 @@ import Card from './component/Card/Card';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-   <Card/>
+  
 {/* <RouterProvider router={router} /> */}
   </>
  
