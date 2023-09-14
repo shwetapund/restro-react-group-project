@@ -4,6 +4,13 @@ import './index.css';
 // import Navbar from './component/Navbar/Navbar';
 // import Home from './view/Product/Home/Home';
 import Home from './view/Home/Home';
+
+
+
+
+
+
+
 import Products from './view/Products/Products'
 import Contact from './view/Contact/Contact';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
