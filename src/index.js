@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Card from './component/Card/Card';
-import Navbar from './component/Navbar/Navbar';
+// import Card from './component/Card/Card';
+// import Navbar from './component/Navbar/Navbar';
 // import Home from './view/Product/Home/Home';
 import Home from './view/Home/Home';
 import Products from './view/Products/Products'
+import Contact from './view/Contact/Contact';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -36,7 +37,7 @@ root.render(
   <>
   
 <RouterProvider router={router} />
-  {/* <Home/> */}
+<Contact/>
   </>
 );
 
