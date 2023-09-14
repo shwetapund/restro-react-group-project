@@ -22,10 +22,10 @@ export default function Navbar() {
                 Product
               </a>
               <ul className="dropdown-menu ">
-                <li><a className="dropdown-item" href="#">Pizza</a></li>
-                <li><a className="dropdown-item" href="#">Burger</a></li>
-                <li><a className="dropdown-item" href="#">Nudles</a></li>
-                <li><a className="dropdown-item" href="#">Munchurian</a></li>
+                <li><a className="dropdown-item" href="#">Fast Food</a></li>
+                <li><a className="dropdown-item" href="#">Veg</a></li>
+                <li><a className="dropdown-item" href="#">Non-Veg</a></li>
+                <li><a className="dropdown-item" href="#">South</a></li>
               </ul>
             </li>
 
