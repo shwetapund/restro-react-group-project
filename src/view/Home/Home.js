@@ -12,7 +12,16 @@ export default function Home()
         <div className="homeImg">
            
         </div>
+        <h1> Inspiration for your first order</h1>
+        <div className='menuContainer'>
         <Category DashImg={ImgCat}/>
+        <Category DashImg={ImgCat}/>
+        <Category DashImg={ImgCat}/>
+        <Category DashImg={ImgCat}/>
+        <Category DashImg={ImgCat}/>
+        <Category DashImg={ImgCat}/>
+        </div>
+       
         </>
     
     )
