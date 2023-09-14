@@ -4,14 +4,7 @@ export default function About() {
     
 
     <>
-        <div className="about">
-            <div>
-
-            </div>
-            <div>
-
-            </div> 
-        </div>
+       <h1>About US PAge</h1>
        <Footer/>
     </>
  

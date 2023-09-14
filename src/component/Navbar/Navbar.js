@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 export default function Navbar() {
   return (
@@ -10,22 +11,22 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item me-5">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
 
             <li className="nav-item  me-5">
-              <a className="nav-link active" aria-current="page" href="#">About Us</a>
+              <a className="nav-link active" aria-current="page" href="./contact">About Us</a>
             </li>
 
             <li className="nav-item dropdown  me-5">
-              <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Link className="nav-link active dropdown-toggle" to="./product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Product
-              </a>
+              </Link>
               <ul className="dropdown-menu ">
-                <li><a className="dropdown-item" href="#">Fast Food</a></li>
-                <li><a className="dropdown-item" href="#">Veg</a></li>
-                <li><a className="dropdown-item" href="#">Non-Veg</a></li>
-                <li><a className="dropdown-item" href="#">South</a></li>
+                <li><Link className="dropdown-item" to="./fastfood">Fast Food</Link></li>
+                <li><a className="dropdown-item" href="./vegeterian">Veg</a></li>
+                <li><a className="dropdown-item" href="./nonveg">Non-Veg</a></li>
+                <li><a className="dropdown-item" href="./south">South</a></li>
               </ul>
             </li>
 
