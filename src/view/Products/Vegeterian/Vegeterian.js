@@ -1,8 +1,8 @@
 import "./Vegeterian.css";
 import Info from "../../../component/Info/Info";
-import Dosa from "./Image/dosa.jpg";
+// import Dosa from "./Image/dosa.jpg";
 
-export default function Vegeterian({ img, name, text, price }) {
+export default function Vegeterian() {
     return (
         <>
             <Info img={Dosa} name="Dosa" text="lkjhfgsfcvbjkn" price="200" />
