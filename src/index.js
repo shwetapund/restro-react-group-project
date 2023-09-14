@@ -2,7 +2,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './component/Card/Card';
 import Navbar from './component/Navbar/Navbar';
-import Home from './view/Product/Home/Home';
+// import Home from './view/Product/Home/Home';
+import Home from './view/Home/Home';
+
 
 
 
