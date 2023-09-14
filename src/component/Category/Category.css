@@ -1,11 +1,12 @@
 .categoryimg{
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
+    text-align: center;
 }
 
 .categoryimg img{
     height: 100%;
     width: 100%;
-    /* border-radius: 50%; */
+    border-radius: 50%;
 }
