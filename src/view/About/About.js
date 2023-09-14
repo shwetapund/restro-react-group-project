@@ -1,5 +1,18 @@
 import Footer from "./../../component/Footer/Footer";
 
 export default function About() {
-    <Footer/>
+    
+
+    <>
+        <div className="about">
+            <div>
+
+            </div>
+            <div>
+
+            </div> 
+        </div>
+       <Footer/>
+    </>
+ 
 }
