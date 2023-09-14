@@ -1,8 +1,8 @@
 import "./Veg.css";
-import Info from "./../../../component/Info/Info";
+import Info from "../../../component/Info/Info";
 import Dosa from "./img/dosa.jpg";
 
- export default function Veg(){
+ export default function Vegeterian(){
     return(
         <>
         <Info img={Dosa} name="Dosa" text="lkjhfgsfcvbjkn" price="200" />
