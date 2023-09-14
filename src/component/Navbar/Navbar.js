@@ -24,14 +24,18 @@ export default function Navbar() {
               </Link>
               <ul className="dropdown-menu ">
                 <li><Link className="dropdown-item" to="./fastfood">Fast Food</Link></li>
-                <li><a className="dropdown-item" href="./vegeterian">Veg</a></li>
-                <li><a className="dropdown-item" href="./nonveg">Non-Veg</a></li>
-                <li><a className="dropdown-item" href="./south">South</a></li>
+                <li><Link className="dropdown-item" to="./vegeterian">Veg</Link></li>
+                <li><Link className="dropdown-item" to="./nonveg">Non-Veg</Link></li>
+                <li><Link className="dropdown-item" to="./south">South</Link></li>
               </ul>
             </li>
 
             <li className="nav-item  me-5">
-              <a className="nav-link active" aria-current="page" href="#">Login</a>
+              <Link className="nav-link active" aria-current="page" to="#">Login</Link>
+            </li>
+
+            <li className="nav-item  me-5">
+              <Link className="nav-link active" aria-current="page" to="./contact">Contact</Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
