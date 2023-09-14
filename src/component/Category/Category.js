@@ -1,6 +1,6 @@
 
 import './Category.css'
-export default function Category(props)
+export default function Category({DashImg})
 {
     return(
         <>
@@ -8,7 +8,7 @@ export default function Category(props)
         
         <div className="categoryimg">
         {/* <img src={img1}/> */}
-              <img className="img-dashboard-user float-end" src={props.DashImg} alt=""/>
+              <img className="img-dashboard-user float-end" src={DashImg} alt=""/>
               <p>pizza</p>
         </div>
 
