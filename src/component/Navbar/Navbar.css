@@ -1,0 +1,10 @@
+.navbar{
+    background-color: rgb(201, 52, 99);
+}
+
+.navbar-brand{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
