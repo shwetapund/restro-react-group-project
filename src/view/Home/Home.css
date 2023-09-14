@@ -5,3 +5,9 @@
     width: 100vw;
     background-size: cover;
 }
+
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
