@@ -41,7 +41,7 @@ root.render(
   <>
   
 {/* <RouterProvider router={router} /> */}
+  <Home/>
   </>
- 
 );
 
