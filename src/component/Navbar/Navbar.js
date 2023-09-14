@@ -15,11 +15,7 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item  me-5">
-<<<<<<< HEAD
-              <a className="nav-link active" aria-current="page" href="">About Us</a>
-=======
-              <a className="nav-link active" aria-current="page" href="./contact">About Us</a>
->>>>>>> 8fbda163dd9f196f9966f06ad3df4c95c35fc2a0
+              <a className="nav-link active" aria-current="page" href="./about">About Us</a>
             </li>
 
             <li className="nav-item dropdown  me-5">
