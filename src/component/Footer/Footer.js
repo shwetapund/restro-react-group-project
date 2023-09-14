@@ -8,15 +8,13 @@ return(
             <h1>🍔🍟 Restro ✨</h1>
         </div>
         <div>
-            <div>
-                <div>
-                    <a href="#">Home</a>
-                </div>
-                <div>
-                    <a href="">Products</a>
-                </div>
-
-            </div>
+            <ul>
+               <li>Home </li>
+               <li>About Us</li>
+               <li>Products</li>
+               <li>Login</li>
+               <li>Contact</li>
+               </ul>
         </div>
         <div>
 
