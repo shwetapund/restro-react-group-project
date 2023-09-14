@@ -1,13 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './view/Home/Home';
-
-
-
-
-
-
-
 import Products from './view/Products/Products'
 import Contact from './view/Contact/Contact';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
