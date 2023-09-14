@@ -1,0 +1,14 @@
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+.container{
+    margin: 10px;
+    padding: 5px;
+}
