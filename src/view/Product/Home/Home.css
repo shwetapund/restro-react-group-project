@@ -1,0 +1,7 @@
+/* import img from './../Image/pizza.jpg'; */
+.homeImg{
+    background-image:url(./../Home/Image/pizza.jpg) ;
+    height: 45vw;
+    width: 100vw;
+    background-size: cover;
+}
