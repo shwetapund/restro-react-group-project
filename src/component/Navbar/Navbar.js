@@ -15,7 +15,7 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item  me-5">
-              <a className="nav-link active" aria-current="page" href="">About Us</a>
+              <a className="nav-link active" aria-current="page" href="./about">About Us</a>
             </li>
 
             <li className="nav-item dropdown  me-5">
@@ -40,7 +40,6 @@ export default function Navbar() {
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
           </form>
         </div>
       </div>

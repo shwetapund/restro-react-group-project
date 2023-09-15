@@ -1,5 +1,6 @@
 import "./Vegeterian.css";
 import Info from "../../../component/Info/Info";
+import Footer from "./../../../component/Footer/Footer";
 import Dosa from "./Image/dosa.jpg";
 import Dosa1 from "./Image/dosa1.webp";
 import Dosa2 from "./Image/dosa2.jpg";
@@ -242,6 +243,7 @@ export default function Vegeterian() {
                 <Info img={Misal5} />
                 <Info img={Misal6} />
             </div>
+            <Footer/>
 
         </>
     )

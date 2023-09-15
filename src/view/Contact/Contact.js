@@ -39,7 +39,8 @@ export default function Contact() {
                 </div>
             </div>
           
-             <Card imgc={edli} text="hhhhhhhh" price="677" distance="20-30m " offer="50%"/>
+             {/* <Card imgc={edli} text="hhhhhhhh" price="677" distance="20-30m " offer="50%"/> */}
+             <CardReview/>
              <br/>
             <Footer/>
         </>

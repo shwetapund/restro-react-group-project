@@ -1,7 +1,8 @@
 import "./FastFood.css";
-import Info from "../../../component/Info/Info";
+import Info from "./../../../component/Info/Info";
 import Navbar from "./../../../component/Navbar/Navbar";
 import Button from "./../../../component/Button/Button";
+import Footer from "./../../../component/Footer/Footer";
 import Pizza from "./Image/pizza.png";
 import Pizza1 from "./Image/pizza1.png";
 import Pizza2 from "./Image/pizza2.png";
@@ -32,12 +33,7 @@ import Dairy4 from "./Image/d4.png";
 import Dairy5 from "./Image/d5.png";
 import Dairy6 from "./Image/d6.png";
 import Dairy7 from "./Image/d7.png";
-
-
-
-
-
-
+// import AddToCart from "../../AddToCart/AddToCart";
 export default function FastFood(){
     return (
         <>
@@ -56,7 +52,7 @@ export default function FastFood(){
                         <h4>Pizza, 14" regular crust</h4> 
                         <h4>Sources include: USDA</h4></p>
                     <h4 className="front-text">Price:₹180</h4><br />
-                    <Button text="Add To Cart" /><br />
+                    <a href=""><Button text="Add To Cart" /></a><br />
                 </div>
 
             </div>
@@ -154,6 +150,9 @@ A burger is a patty of ground beef grilled and placed between two halves of a bu
                 <Info img={Dairy5} />
             </div>
             <hr /><hr /><hr />
+
+
+            <Footer/>
 
         </>
     )

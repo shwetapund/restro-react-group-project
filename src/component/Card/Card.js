@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-// import dipika from './dipika.jpg';
+import dipika from './dipika.jpg';
 
 export default function Card({ imgc, text, price, distance, offer }) {
   return (
@@ -17,22 +17,17 @@ export default function Card({ imgc, text, price, distance, offer }) {
   );
 }
 
-// export function CardReview() {
-//   return (
-//     <div className='reviewcard'>
-//       <img src={dipika} className='reviewimg' />
-//       <button type='button' >review</button>
-   
-//       <p id='reviewtext'> jjjj  gghhhgh </p>
-//       <h6 className='reviewname'>Dipika Padukone</h6>
-//       <h2><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i></h2>
-//     </div>
-//   );
-// }
+export function CardReview() {
+  return (
+    <div className='reviewcard'>
+      <h1 className='doubleq'> <i class="fa-solid fa-quote-right"></i></h1>
+      <p className='reviewtext'>hdfghj jdghfdgsh kdfhbdsf jfbdkj bfdsnbfdn hbfdsnbf hdbfdnbf jfdjh hdfghj 
+        jdghfdgsh kdfhbdsf jfbdkj bfdsnbfdn hbfdsnbf hdbfdnbf jfdjh</p>
+     <img src={dipika} className='reviewimg' />
+    
+      <h6 className='reviewname'>Dipika Padukone</h6>
+      <h3 className='star'><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i></h3>
+    </div>
+  );
+}
 
-// function showText() {
-//     document.addEventListener('DOMContentLoaded', function() {
-//       const text = document.getElementById('reviewtext');
-//       text.innerHTML= `<div>hiiiii</div>`;
-//     });
-//   }
