@@ -26,7 +26,7 @@ export default function Navbar() {
                 <li><Link className="dropdown-item" to="./fastfood">Fast Food</Link></li>
                 <li><Link className="dropdown-item" to="./vegeterian">Veg</Link></li>
                 <li><Link className="dropdown-item" to="./nonveg">Non-Veg</Link></li>
-                <li><Link className="dropdown-item" to="./south">South</Link></li>
+                {/* <li><Link className="dropdown-item" to="./south">South</Link></li> */}
               </ul>
             </li>
 
