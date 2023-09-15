@@ -1,6 +1,8 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Card from './component/Card/Card';
+// import Card from './component/Card/Card';
+import Login from './view/Login/Login';
+
 // import {
 //   createBrowserRouter,
 //   RouterProvider,
@@ -33,7 +35,8 @@ import Card from './component/Card/Card';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-   <Card/>
+   {/* <Card/> */}
+   <Login />
 {/* <RouterProvider router={router} /> */}
   </>
  
