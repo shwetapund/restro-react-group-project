@@ -8,24 +8,26 @@ export default function About() {
 
     return (
         <>
-        <Navbar/>
-    
-        <div className='about'>
-            <div>
-                <img src={Restaurant} className='about-img'/>
-            </div>
-            <div>
-                <h4 className='heading'>About Our Restaurant</h4>
-                <h3 className='quote'>We Provide Good Quality <br/>
-                    Food to Your Family!</h3>
-                <p className='text-about'>With a dash of Goda masala, raw onions, coriander, lemons, Sev and Farzan, Puneri food is simply delectable.</p>
-                <Button text={"Learn More"}/>
-            </div>
+            <Navbar />
+            <div className='about-main'>
 
-        </div>
-        
 
-        <Footer/>
+                <div className='about'>
+                    <div>
+                        <img src={Restaurant} className='about-img' />
+                    </div>
+                    <div>
+                        <h4 className='heading'>About Our Restaurant</h4>
+                        <h3 className='quote'>We Provide Good Quality <br />
+                            Food to Your Family!</h3>
+                        <p className='text-about'>With a dash of Goda masala, raw onions, coriander, lemons, Sev and Farzan, Puneri food is simply delectable.</p>
+                        <Button text={"Learn More"} className="button"/>
+                    </div>
+
+                </div>
+
+            </div>
+            <Footer />
         </>
 
 
