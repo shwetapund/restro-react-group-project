@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     element:<FastFood/>,
   },
   {
-    path: "/nonveg",
+    path: "/fastfood/nonveg",
     element:<Nonveg/>,
   },
   // {

@@ -11,6 +11,8 @@ export default function Footer() {
     return (
         <>
             <div className="footer">
+      
+      
                 <div className='main-container color-white'>
                     <div className='sub-container'>
                         <h1 className='color-white'> <img src={logo} alt="" className='img-logo' />
@@ -22,16 +24,16 @@ export default function Footer() {
                     </div>
 
                     <div className='sub-container'>
-                        <p className='text'><img src={location} className='location'/>Solapur Heighway, Laxmi Height,India </p>
+                        <p className='text'><img src={location} className='location' />Solapur Heighway, Laxmi Height,India </p>
 
-                        <p className='text'><img src={gmail} className='mail'/> tastePortal@gmail.com </p>
+                        <p className='text'><img src={gmail} className='mail' /> tastePortal@gmail.com </p>
 
-                    <div className='main-social'>
-                    <div className='social-media'><img src={insta} className='social'/></div>
-                    <div className='social-media'><img src={facebook} className='social'/></div>
-                    <div className='social-media'><img src={twitter} className='social'/></div>
-                        <div className='social-media'><img src={whatsapp} className='social'/></div>
-                    </div>
+                        <div className='main-social'>
+                            <div className='social-media'><img src={insta} className='social' /></div>
+                            <div className='social-media'><img src={facebook} className='social' /></div>
+                            <div className='social-media'><img src={twitter} className='social' /></div>
+                            <div className='social-media'><img src={whatsapp} className='social' /></div>
+                        </div>
                     </div>
                 </div>
             </div>

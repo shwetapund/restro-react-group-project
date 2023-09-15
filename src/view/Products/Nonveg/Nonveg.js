@@ -29,9 +29,6 @@ import Mutton3 from "./Image/m4.png";
 import Mutton4 from "./Image/m5.png";
 import Mutton5 from "./Image/m6.png";
 import Mutton6 from "./Image/m7.png";
-
-
-
 export default function Nonveg(){
     return (
         <>
@@ -39,7 +36,7 @@ export default function Nonveg(){
             <h1 className="center green"><span className="brown">A</span>valiable-<span className="brown">T</span>o-<span className="brown">N</span>onveg</h1><hr />
             <div className="main-container">
                 <div>
-                    <img className="img"  src={Nonveg0}/>
+                    <img className="img" src={Nonveg0} />
                 </div>
                 <div>
                     <h1 className="center green"><span className="brown">C</span>hiken</h1>
@@ -47,10 +44,10 @@ export default function Nonveg(){
 
                         <h4>Scientific name: Gallus gallus domesticus</h4>
                         <h4>Lifespan: 5 – 10 years</h4>
-                        <h4>Domain: Eukaryota</h4> 
+                        <h4>Domain: Eukaryota</h4>
                         <h4>Order: Galliformes</h4></p>
                     <h4 className="front-text">Price:₹150</h4><br />
-                    <Button text="Add To Cart" /><br />
+                    <Button className="ms-5" text="Add To Cart" /><br />
                 </div>
 
             </div>
@@ -89,36 +86,35 @@ export default function Nonveg(){
                 <Info img={Biryani4} />
                 <Info img={Biryani5} />
             </div>
-            <hr /><hr /><hr />
+            <hr/><hr/><hr/>
 
 
 
             <div className="main-container">
                 <div>
-                    <img className="img" src={Egg}/>
+                    <img className="img" src={Egg} />
                 </div>
                 <div>
                     <h1 className="center green"><span className="brown">E</span>gg</h1>
-                    <p className="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idli or idly is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka. The cakes are made by steaming a batter consisting of fermented black lentils and rice.<br /><br />
+                    <p className="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idli or idly is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka. The cakes are made by steaming a batter consisting of fermented black lentils and rice.<br/><br/>
                         <h4>Place of origin: India</h4>
                         <h4>Main ingredients: Rice, Urad dal</h4>
                         <h4>Course: Breakfast, dinner</h4>
                         <h4>Serving temperature: Hot with a condiment such as</h4> </p>
-                    <h4 className="front-text">Price:₹100</h4><br />
-                    <Button text="Add To Cart" /><br />
+                    <h4 className="front-text">Price:₹100</h4><br/>
+                    <Button text="Add To Cart" /><br/>
                 </div>
 
             </div>
             <div className="main-container">
-                <Info img={Egg1} />
-                <Info img={Egg2} />
-                <Info img={Egg3} />
-                <Info img={Egg4} />
-                <Info img={Egg5} />
-                <Info img={Egg6} />
+                <Info img={Egg1}/>
+                <Info img={Egg2}/>
+                <Info img={Egg3}/>
+                <Info img={Egg4}/>
+                <Info img={Egg5}/>
+                <Info img={Egg6}/>
             </div>
             <hr /><hr /><hr />
-
             <div className="main-container">
                 <div>
                     <img className="img" src={Mutton} />
@@ -144,8 +140,7 @@ export default function Nonveg(){
                 <Info img={Mutton6} />
             </div>
             <hr /><hr /><hr />
-            <Footer/>
-
+            <Footer />
         </>
     )
 }

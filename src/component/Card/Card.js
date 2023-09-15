@@ -17,15 +17,14 @@ export default function Card({ imgc, text, price, distance, offer }) {
   );
 }
 
-export function CardReview() {
+export function CardReview(img,reviewtext,reviewname) {
   return (
     <div className='reviewcard'>
       <h1 className='doubleq'> <i class="fa-solid fa-quote-right"></i></h1>
-      <p className='reviewtext'>hdfghj jdghfdgsh kdfhbdsf jfbdkj bfdsnbfdn hbfdsnbf hdbfdnbf jfdjh hdfghj 
-        jdghfdgsh kdfhbdsf jfbdkj bfdsnbfdn hbfdsnbf hdbfdnbf jfdjh</p>
-     <img src={dipika} className='reviewimg' />
+      <p className='reviewtext'>{reviewtext}</p>
+     <img src={img} className='reviewimg' />
     
-      <h6 className='reviewname'>Dipika Padukone</h6>
+      <h6 className='reviewname'>{reviewname}</h6>
       <h3 className='star'><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i></h3>
     </div>
   );
