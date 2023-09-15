@@ -21,8 +21,7 @@ background-color: #f0f2f5;
     margin-right: auto;
     margin-top: 150px;
     font-size: 30px;
-    /* border-bottom: 1px solid black;
-       background-color:#f0f2f5;      */
+   
 }
 .login-input{
     height: 40px;
@@ -35,16 +34,13 @@ background-color: #f0f2f5;
     background-color:#f0f2f5;
 }
 .img-div{
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center; */
+   
     display: flex;
     justify-content: center;
 }
 .img{
     height: 80px;
-    padding: 5px;
+    padding: 4px;
     border-radius: 50%;
     border: 2px solid black;
 
