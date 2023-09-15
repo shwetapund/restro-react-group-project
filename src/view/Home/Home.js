@@ -21,7 +21,9 @@ import Service from '../../component/Service/Service';
 import fruit from './Image/Peach-pana.png'
 import truck from './Image/Logistics-rafiki.png'
 import pizzaman from './Image/Pizza maker-amico.png'
-import momos from './../../view/Home/Image/momos-panda.avif'
+import dominos from './../../view/Home/Image/dominos0.jpg'
+import iceCream from './../../view/Home/Image/ice-cream.jpg'
+import kfc from './../../view/Home/Image/kfc-1.jpg'
 import { Link } from 'react-router-dom';
 import Card from './../../component/Card/Card'
 import Footer from './../../component/Footer/Footer'
@@ -68,15 +70,30 @@ export default function Home() {
 
                     <Service img={pizzaman} heading={'ORIGINAL RECIPES'} text={'Sit amet, consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur dapibus mauris sed leo cursus aliquetcras suscipit.'} />
                 </div>
-            {/* </div>
-             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'}distance={'eleifend'} offer={'offer'}/>
-             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'} distance={'eleifend'} offer={'offer'}/>
-             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'}distance={'eleifend'} offer={'offer'}/>
-            <div> */}
+            </div>
+            <div className='variety'>
+                <Card imgc={dominos} text={"Domino's Pizza"} price={' 150 for one'} distance={'25 min'} offer={'offer'} />
+                <Card imgc={iceCream} text={'Natural Ice Cream'} price={'150 for one'} distance={'20 min'} offer={'offer'} />
+                <Card imgc={kfc} text={'KFC'} price={'200 for one'} distance={'18 min'} offer={'offer'} />
+                <div />
 
             </div>
             <Footer />
-        </>
 
+        </>
     )
 }
+
+
+// Pizza, Italian, Pasta, Fast Food, Desserts
+
+
+// Burger, Fast Food, Biryani, Desserts, Beverages
+
+
+// Ice Cream, Shake
+
+
+
+
+

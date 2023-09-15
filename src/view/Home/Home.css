@@ -58,6 +58,13 @@
   
 }
 
+.variety{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width:600px){
     .homeImg h1{
         font-size: 22px;
