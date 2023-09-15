@@ -1,0 +1,111 @@
+.footer {
+    background-color: rgb(201, 52, 99);
+    height: 230px;
+}
+
+.img-logo {
+    height: 50px;
+
+}
+
+
+.color-white {
+    color: white;
+}
+
+.main-container {
+    background-color: rgb(201, 52, 99);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sub-container {
+    font-weight: 500;
+    width: 550px;
+}
+
+
+
+
+.location {
+    height: 30px;
+
+}
+
+.mail {
+    width: 30px;
+
+}
+
+.text {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.social {
+    height: 35px;
+    padding: 2px;
+}
+
+.social-media {
+    height: 55px;
+    width: 55px;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.main-social {
+    display: flex;
+    margin-left: 50px;
+
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .main-container {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+
+    }
+
+    .sub-container {
+        font-weight: 400;
+        width: 550px; 
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .main-social {
+        margin-left: 10px;
+    }
+
+    .location {
+
+        margin-left: -60px;
+    }
+
+    .mail {
+        margin-left: -60px;
+
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    
+
+}
