@@ -1,0 +1,22 @@
+
+.service img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.serviceContainer{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.serviceCardContainer{
+    background-color:rgb(201, 52, 99);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}

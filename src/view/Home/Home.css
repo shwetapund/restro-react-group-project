@@ -1,6 +1,8 @@
 /* import img from './../Image/pizza.jpg'; */
 .homeImg{
     background-image:url(./../Home/Image/pizza.jpg) ;
+    /* background-image: linear-gradient( black,red), url(./../Home/Image/pizza.jpg); */
+    /* opacity: 0.7; */
     height: 45vw;
     width: 100vw;
     background-size: cover;
@@ -10,11 +12,6 @@
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    /* overflow-x: scroll; */
 }
 
-.service{
-    background-color:rgb(201, 52, 99); 
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
