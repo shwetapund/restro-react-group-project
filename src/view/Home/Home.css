@@ -1,23 +1,75 @@
 /* import img from './../Image/pizza.jpg'; */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 .homeImg{
-    background-image:url(./../Home/Image/pizza.jpg) ;
-    /* background-image: linear-gradient( black,red), url(./../Home/Image/pizza.jpg); */
+    /* background-image:url(./../Home/Image/pizza.jpg) ; */
+    background-image: linear-gradient(rgba( 0,0,0,0.7),rgba( 0,0,0,0.7)), url(./../Home/Image/pizza.jpg);
     /* opacity: 0.7; */
     height: 45vw;
     width: 100vw;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
 }
 
+.homeImg h1{
+    font-size: 60px;
+}
+
+.homeImg p{
+    font-size: 20px;
+}
+
+.homeImg a{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: rgb(201, 52, 99);
+    color: white;
+
+}
 .menuContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
-    /* overflow: scroll; */
+    /* flex-direction: row; 
+     justify-content: space-between; 
+    padding: 40px; */
+    /* overflow-x: auto; */
+    width: 100vw;
+    overflow-x: scroll;
 }
 
 .categoryContainer{
     text-align: center;
     margin: 30px;
+}
+
+.serviceContainer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+  
+}
+
+@media screen and (max-width:600px){
+    .homeImg h1{
+        font-size: 22px;
+    }
+    
+    .homeImg p{
+        font-size: 10px;
+    }
+    
+    .homeImg a{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
 }
 

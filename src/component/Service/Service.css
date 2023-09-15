@@ -8,16 +8,20 @@
     margin: 10px;
 }
 
-.serviceContainer{
+/* .serviceContainer{
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-}
+    flex-wrap: wrap;
+} */
 
 .serviceCardContainer{
     background-color:rgb(201, 52, 99);
     color: white;
     padding: 30px;
     text-align: center;
+}
+.service {
+    margin: 15px;
+    /* background-color: red;  */
 }
