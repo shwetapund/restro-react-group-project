@@ -18,7 +18,7 @@ export default function About() {
                 <h4 className='heading'>About Our Restaurant</h4>
                 <h3 className='quote'>We Provide Good Quality <br/>
                     Food to Your Family!</h3>
-                <p className='text'>With a dash of Goda masala, raw onions, coriander, lemons, Sev and Farzan, Puneri food is simply delectable.</p>
+                <p className='text-about'>With a dash of Goda masala, raw onions, coriander, lemons, Sev and Farzan, Puneri food is simply delectable.</p>
                 <Button text={"Learn More"}/>
             </div>
 
