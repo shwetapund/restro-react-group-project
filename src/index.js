@@ -7,7 +7,7 @@ import About from './view/About/About'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import FastFood from './view/Products/FastFood/FastFood';
 import Vegeterian from './view/Products/Vegeterian/Vegeterian';
-import South from './view/Products/South/South';
+// import South from './view/Products/South/South';
 import Nonveg from './view/Products/Nonveg/Nonveg'
 
 const router = createBrowserRouter([
@@ -35,10 +35,10 @@ const router = createBrowserRouter([
     path: "/nonveg",
     element:<Nonveg/>,
   },
-  {
-    path: "/south",
-    element:<South/>,
-  },
+  // {
+  //   path: "/south",
+  //   element:<South/>,
+  // },
   {
     path: "/vegeterian",
     element:<Vegeterian/>,
