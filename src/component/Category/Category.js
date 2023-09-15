@@ -1,6 +1,6 @@
 
 import './Category.css'
-export default function Category({DashImg})
+export default function Category({DashImg ,food})
 {
     return(
         <>
@@ -9,7 +9,7 @@ export default function Category({DashImg})
         <div className="categoryimg">
         {/* <img src={img1}/> */}
               <img className="img-dashboard-user float-end" src={DashImg} alt=""/>
-              <p>pizza</p>
+              <p>{food}</p>
         </div>
 
         </>
