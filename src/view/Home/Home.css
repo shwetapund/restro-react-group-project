@@ -71,5 +71,18 @@
         font-size: 12px;
         padding: 5px 20px;
     }
+
+    .categoryContainer{
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .categoryContainer h1{
+      font-size: 20px;
+    }
+
+    .serviceContainer{
+        flex-direction: column;
+    }
 }
 
