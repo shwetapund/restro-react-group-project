@@ -21,20 +21,23 @@ import Service from '../../component/Service/Service';
 import fruit from './Image/Peach-pana.png'
 import truck from './Image/Logistics-rafiki.png'
 import pizzaman from './Image/Pizza maker-amico.png'
+import momos from './../../view/Home/Image/momos-panda.avif'
 import { Link } from 'react-router-dom';
+import Card from './../../component/Card/Card'
+import Footer from './../../component/Footer/Footer'
 
 export default function Home() {
     return (
         <>
             <Navbar />
             <div className="homeImg">
-               <p>Traditional and Hygine</p>
-               <h1>For The Love Of Delicious Food</h1>
-               <p>Come with Family and Feel the joy of mouthwatering food</p>
-               <a href="#category">Our Menu</a>
+                <p>Traditional and Hygine</p>
+                <h1>For The Love Of Delicious Food</h1>
+                <p>Come with Family and Feel the joy of mouthwatering food</p>
+                <a href="#category">Our Menu</a>
             </div>
 
-            <div className='categoryContainer'  id='category'>
+            <div className='categoryContainer' id='category'>
                 <h1> Inspiration for your first order</h1>
                 <div className='menuContainer'>
                     <Category DashImg={sandwitch} food={'Sandwitch'} />
@@ -43,14 +46,14 @@ export default function Home() {
                     <Category DashImg={cake} food={'Cake'} />
                     <Category DashImg={thali} food={'Thali'} />
                     <Category DashImg={chicken} food={'Chicken'} />
-                    <Category DashImg={biryani} food={'Biryani'}/>
-                    <Category DashImg={paratha} food={'Paratha'}/>
-                    <Category DashImg={chole} food={'Chole Bhature'}/>
-                    <Category DashImg={paneer} food={'Matar Paneer'}/>
-                    <Category DashImg={north} food={'North Indian'}/>
-                    <Category DashImg={dosa} food={'Dosa'}/>
-                    <Category DashImg={fried} food={'Fried Rice'}/>
-                   
+                    <Category DashImg={biryani} food={'Biryani'} />
+                    <Category DashImg={paratha} food={'Paratha'} />
+                    <Category DashImg={chole} food={'Chole Bhature'} />
+                    <Category DashImg={paneer} food={'Matar Paneer'} />
+                    <Category DashImg={north} food={'North Indian'} />
+                    <Category DashImg={dosa} food={'Dosa'} />
+                    <Category DashImg={fried} food={'Fried Rice'} />
+
                 </div>
             </div>
 
@@ -65,7 +68,14 @@ export default function Home() {
 
                     <Service img={pizzaman} heading={'ORIGINAL RECIPES'} text={'Sit amet, consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur dapibus mauris sed leo cursus aliquetcras suscipit.'} />
                 </div>
+            {/* </div>
+             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'}distance={'eleifend'} offer={'offer'}/>
+             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'} distance={'eleifend'} offer={'offer'}/>
+             <Card img={truck} text={'elit quisque eget maximus velit'} price={'20'}distance={'eleifend'} offer={'offer'}/>
+            <div> */}
+
             </div>
+            <Footer />
         </>
 
     )
