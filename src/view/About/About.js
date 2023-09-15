@@ -2,10 +2,20 @@ import Footer from "./../../component/Footer/Footer";
 
 export default function About() {
     
-
+return(
     <>
-       <h1>About US PAge</h1>
+        <div className="about">
+            <div>
+                
+            </div>
+            <div>
+
+            </div> 
+        </div>
        <Footer/>
     </>
  
+
+)
+
 }
