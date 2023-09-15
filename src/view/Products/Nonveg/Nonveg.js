@@ -2,6 +2,7 @@ import "./Nonveg.css";
 import Info from "../../../component/Info/Info";
 import Navbar from "./../../../component/Navbar/Navbar";
 import Button from "./../../../component/Button/Button";
+import Footer from "./../../../component/Footer/Footer";
 import Nonveg0 from "./Image/chiken5.jpg";
 import Nonveg1 from "./Image/chiken2.jpg";
 import Nonveg2 from "./Image/chiken3.webp";
@@ -143,6 +144,7 @@ export default function Nonveg(){
                 <Info img={Mutton6} />
             </div>
             <hr /><hr /><hr />
+            <Footer/>
 
         </>
     )
