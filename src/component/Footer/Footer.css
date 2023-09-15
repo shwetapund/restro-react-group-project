@@ -1,7 +1,70 @@
-.footer{
+.footer {
+    background-color: rgb(201, 52, 99);
+    height: 300px;
+}
+
+.img-logo {
+    height: 50px;
+
+}
+
+
+.color-white {
+    color: white;
+}
+
+.main-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background-color:rgb(201, 52, 99);
-    height: 300px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sub-container {
+    font-weight: 500;
+    width: 550px;
+}
+
+.location {
+    height: 30px;
+
+}
+
+.mail {
+    width: 30px;
+
+}
+
+.text {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.social {
+    height: 35px;
+    padding: 2px;
+}
+
+.social-media {
+    height: 55px;
+    width: 55px;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.main-social {
+    display: flex;
+    margin-left: 60px;
+
+    margin-top: 110px;
 }
