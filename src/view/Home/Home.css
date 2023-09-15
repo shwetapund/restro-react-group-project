@@ -10,8 +10,14 @@
 
 .menuContainer{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 40px;
-    /* overflow-x: scroll; */
+    /* overflow: scroll; */
+}
+
+.categoryContainer{
+    text-align: center;
+    margin: 30px;
 }
 

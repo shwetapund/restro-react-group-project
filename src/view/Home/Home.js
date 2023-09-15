@@ -22,19 +22,21 @@ export default function Home() {
             <div className="homeImg">
 
             </div>
-            <h1> Inspiration for your first order</h1>
-            <div className='menuContainer'>
-                <Category DashImg={sandwitch} food={'Sandwitch'}/>
-                <Category DashImg={burger} food={'Burger'}/>
-                <Category DashImg={rolls} food={'Rolls'}/>
-                <Category DashImg={cake} food={'Cake'}/>
-                <Category DashImg={thali} food={'Thali'}/>
-                <Category DashImg={chicken} food={'Chicken'}/>
-                {/* <Category DashImg={ImgCat} />
-                <Category DashImg={ImgCat} />
-                <Category DashImg={ImgCat} /> */}
-            </div>
 
+            <div className='categoryContainer'>
+                <h1> Inspiration for your first order</h1>
+                <div className='menuContainer'>
+                    <Category DashImg={sandwitch} food={'Sandwitch'} />
+                    <Category DashImg={burger} food={'Burger'} />
+                    <Category DashImg={rolls} food={'Rolls'} />
+                    <Category DashImg={cake} food={'Cake'} />
+                    <Category DashImg={thali} food={'Thali'} />
+                    <Category DashImg={chicken} food={'Chicken'} />
+                    {/* <Category DashImg={ImgCat} />
+                    <Category DashImg={ImgCat} />
+                    <Category DashImg={ImgCat} /> */}
+                </div>
+            </div>
 
 
             <div className='serviceCardContainer'>

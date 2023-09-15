@@ -10,6 +10,7 @@
 
 .serviceContainer{
     display: flex;
+    flex-direction: row !important;
     justify-content: space-between;
     /* flex-wrap: wrap; */
 }
