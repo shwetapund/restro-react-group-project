@@ -8,3 +8,7 @@
 .navbar-nav .nav-item .nav-link{
     color: white;
 }
+
+.navbar-toggler-icon{
+    background-color: white;
+}
