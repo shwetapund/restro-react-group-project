@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from './Image/White and Gray Illustrative Catering Logo.png'
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg" >
       <div className="container-fluid">
+        <img src={logo} className='logo'/>
         <a className="navbar-brand" href="#">Taste Portal</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -24,7 +26,7 @@ export default function Navbar() {
               </Link>
               <ul className="dropdown-menu ">
                 <li><Link className="dropdown-item" to="./fastfood">Fast Food</Link></li>
-                <li><Link className="dropdown-item" to="./vegeterian">Veg</Link></li>
+                <li><Link className="dropdown-item" to="./fastfood/vegeterian">Veg</Link></li>
                 <li><Link className="dropdown-item" to="./nonveg">Non-Veg</Link></li>
                 {/* <li><Link className="dropdown-item" to="./south">South</Link></li> */}
               </ul>
