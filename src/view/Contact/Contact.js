@@ -33,6 +33,11 @@ export default function Contact() {
                                
                                 <input type="password" class="form-control border-success p-3" id="exampleInputPassword1"  placeholder= ' ☏ number' />
                             </div>
+
+                            <div class="d-grid gap-2">
+                              <button class="btncontact" type="button">Contact Now</button>
+                       
+                          </div>
                            
                         </form>
                     </div>
@@ -40,7 +45,7 @@ export default function Contact() {
             </div>
           
              {/* <Card imgc={edli} text="hhhhhhhh" price="677" distance="20-30m " offer="50%"/> */}
-             <CardReview/>
+          
              <br/>
             <Footer/>
         </>
