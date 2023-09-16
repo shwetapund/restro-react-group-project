@@ -15,6 +15,7 @@
     margin-left: 10px;
     border-radius: 10px 10px 0 0;
     padding: 5px;
+   
 }
 .cardf:hover{
     box-shadow: 0 0 5px 1px  black;
@@ -25,25 +26,31 @@
     padding: 5px;
     transition: 1s;
 }
-.text{
+.textc{
     font-weight: bold;
-    font-size: 20px;
-
+    margin-top: 10px;
+ 
 }
-.btncontact{
-    background-color: rgb(134, 36, 41);
+.textg{
+    position: relative;
+}
+.btn{
+    background-color: rgb(36, 134, 38);
     color: white;
     border: none;
-    padding: 7px;
+    padding: 3px;
    border-radius: 5px;
     font-size: 18px;
+    margin-left: 160px;
+    margin-top: 10px;
+    display: fixed;
   
 }
 .price{
     font-size: 20px;
 }
 .distance{
-    margin-left: 220px;
+    margin-left: 150px;
 }
 .offer{
 color: rgb(43, 43, 194);
@@ -93,4 +100,28 @@ transition: 1.5s;
 .star{
     text-align: center;
 color: #c93463;
+}
+
+@media screen and (max-width:600px) {
+    .cardf{
+       
+        width: 350px; 
+    }
+    .imgfood{
+        height: 250px;
+        width: 340px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */  
+    }
+    .btn{
+       
+        padding: 3px;
+       border-radius: 5px;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top:10px ;
+      
+    }
+
 }

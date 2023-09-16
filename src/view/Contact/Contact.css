@@ -19,3 +19,18 @@
 .touch , .contactt{
     color:  #910c36; ;
 }
+
+@media screen and (max-width:600px) {
+
+
+    .map{
+        height:350px ;
+        width:320px ;
+    }
+    .input{
+        height: 100px;
+        width: 100px;
+        padding: 1px;
+
+    }
+}
