@@ -1,8 +1,9 @@
 import './Contact.css';
 import Navbar from '../../component/Navbar/Navbar';
 import Footer from '../../component/Footer/Footer';
-import Card ,{CardReview} from '../../component/Card/Card';
-import edli from './../../component/Card/edli.jpg';
+// import Card ,{CardReview} from '../../component/Card/Card';
+// import edli from './../../component/Card/edli.jpg';
+// import Menu from './../../view/Menu/Menu';
 export default function Contact() {
     return (
         <>
@@ -22,20 +23,20 @@ export default function Contact() {
                         <form>
                             <div class="mb-3">
                                
-                           <input type="email" class="form-control border-success p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=' 👤 name'  />
+                           <input type="email" className="form-control border-success p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=' 👤 name'  />
                                
                             </div>
                             <div class="mb-3">
                            
-                                <input type="password" class="form-control border-success p-3" id="exampleInputPassword1" placeholder='  ✉ email'  />
+                                <input type="password" className="form-control border-success p-3" id="exampleInputPassword1" placeholder='  ✉ email'  />
                             </div>
                             <div class="mb-3">
                                
-                                <input type="password" class="form-control border-success p-3" id="exampleInputPassword1"  placeholder= ' ☏ number'  />
+                                <input type="password" className="form-control border-success p-3" id="exampleInputPassword1"  placeholder= ' ☏ number'  />
                             </div>
 
                             <div class="d-grid gap-2">
-                              <button class="btncontact" type="button">Contact Now</button>
+                              <button className="btncontact" type="button">Contact Now</button>
                        
                           </div>
                            
@@ -48,7 +49,10 @@ export default function Contact() {
           
              <br/>
             <Footer/>
+           
         </>
+
+        
 
 
     );
