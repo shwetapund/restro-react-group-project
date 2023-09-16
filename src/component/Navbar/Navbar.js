@@ -19,14 +19,17 @@ export default function Navbar() {
             <li className="nav-item  me-5">
               <a className="nav-link active" aria-current="page" href="./about">About Us</a>
             </li>
+            <li className="nav-item  me-5">
+              <a className="nav-link active" aria-current="page" href="./products">Product</a>
+            </li>
 
             <li className="nav-item dropdown  me-5">
-              <Link className="nav-link active dropdown-toggle" to="./product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Product
+              <Link className="nav-link active dropdown-toggle" to="./categories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
               </Link>
               <ul className="dropdown-menu ">
                 <li><Link className="dropdown-item" to="./fastfood">Fast Food</Link></li>
-                <li><Link className="dropdown-item" to="./fastfood/vegeterian">Veg</Link></li>
+                <li><Link className="dropdown-item" to="./vegeterian">Veg</Link></li>
                 <li><Link className="dropdown-item" to="./nonveg">Non-Veg</Link></li>
                 {/* <li><Link className="dropdown-item" to="./south">South</Link></li> */}
               </ul>
