@@ -19,8 +19,7 @@ export default function Footer() {
                             Taste Portal</h1>
                         <p >With a dash of Goda masala, raw onions, coriander, lemons, Sev and Farzan, Puneri food is simply delectable. When in Pune, be sure to not miss out on delicacies like Misal Pav, Pithla Bhakri, Bhakarwadi, Mastani, Dabeli, Pav Bhaji, Poha, Vada Pav and baked goodies from the old school bakeries.</p>
 
-                        <p className='text-end mt-5'>
-                            A restaurant is a place where you can eat a meal and pay for it.</p>
+                     
                     </div>
 
                     <div className='sub-container'>

@@ -1,9 +1,17 @@
+.about-main{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .about{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+
+   
+    margin: 50px;
     box-shadow: 2px 4px 4px 5px lightgrey;
-width: 1100px;
+    width: 900px;
     border-radius: 20px;
 }
 .about-img{
@@ -24,4 +32,35 @@ width: 1100px;
 }
 .text-about{
    margin-bottom:50px;
+}
+
+@media screen and (max-width:600px) {
+    .about{
+        flex-wrap: wrap;
+        width: 300px;
+        height: 600px;
+        margin: 20px;
+    }
+    .about-img{
+        width: 260px;
+        height: 230px;
+    }
+    .heading{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .quote{
+        margin-left: 10px;
+    }
+    .text-about{
+        margin-left: 10px; 
+    }
+    .button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom:20px;
+    }
+
 }
