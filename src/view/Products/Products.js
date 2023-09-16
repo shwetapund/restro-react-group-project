@@ -7,10 +7,12 @@ import Burger from "./FastFood/Image/b3.png";
 import WendysFrostyDairyDessert from "./FastFood/Image/d6.png"
 import Dosa from "./Vegeterian/Image/dosa4.jpg";
 import Idli from "./Vegeterian/Image/i3.png";
+import Paratha from "./Vegeterian/Image/paratha1.png";
+import MisalPav from "./Vegeterian/Image/misal2.png";
 export default function Product() {
     return (
         <>
-            <div className="main">
+            <div>
                 <Navbar />
                 <div className="flex">
                     <Card imgc={Pizza} text="Pizza" price="150" offer="10%" /><br />
@@ -20,10 +22,10 @@ export default function Product() {
                 <div className="flex">
                     <Card imgc={Dosa} text="Dosa" price="150" offer="10%" /><br />
                     <Card imgc={Idli} text="Idli" price="150" offer="10%" /><br />
-                    <Card imgc={Pizza} text="Pizza" price="150" offer="10%" /><br />
+                    <Card imgc={Paratha} text="Paratha" price="150" offer="10%" /><br />
                 </div>
                 <div className="flex">
-                    <Card imgc={Pizza} text="Pizza" price="150" offer="10%" /><br />
+                    <Card imgc={MisalPav} text="MisalPav" price="150" offer="10%" /><br />
                     <Card imgc={Pizza} text="Pizza" price="150" offer="10%" /><br />
                     <Card imgc={Pizza} text="Pizza" price="150" offer="10%" /><br />
                 </div>
