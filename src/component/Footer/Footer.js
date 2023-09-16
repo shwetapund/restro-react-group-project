@@ -5,7 +5,7 @@ import insta from "./images/instagram.png";
 import whatsapp from "./images/whatsapp.png";
 import twitter from "./images/twitter.png";
 import facebook from "./images/facebook.png";
-import logo from "./../Navbar/Image/White and Gray Illustrative Catering Logo.png";
+import logo from "./images/White and Gray Illustrative Catering Logo.png";
 
 export default function Footer() {
 
