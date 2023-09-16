@@ -5,7 +5,8 @@ import insta from "./images/instagram.png";
 import whatsapp from "./images/whatsapp.png";
 import twitter from "./images/twitter.png";
 import facebook from "./images/facebook.png";
-import logo from "./images/logo-shivray-removebg-preview.png";
+import logo from "./../Navbar/Image/White and Gray Illustrative Catering Logo.png";
+
 export default function Footer() {
 
     return (
@@ -13,7 +14,7 @@ export default function Footer() {
             <div className="footer">
       
       
-                <div className='main-container color-white'>
+                <div className='main-container1 color-white'>
                     <div className='sub-container'>
                         <h1 className='color-white'> <img src={logo} alt="" className='img-logo' />
                             Taste Portal</h1>

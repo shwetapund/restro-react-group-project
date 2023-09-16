@@ -1,23 +1,21 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// <<<<<<< HEAD
+
 // import Card from './component/Card/Card';
 
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-// } from "react-router-dom";
-
+// import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from './view/Home/Home';
-import Products from './view/Products/Products'
+import Products from './view/Products/Products';
+import Categories from './view/Categories/Categories';
 import Contact from './view/Contact/Contact';
-import About from './view/About/About'
+import Login from './view/Login/Login';
+import About from './view/About/About';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import FastFood from './view/Products/FastFood/FastFood';
 import Vegeterian from './view/Products/Vegeterian/Vegeterian';
 // import South from './view/Products/South/South';
 import Nonveg from './view/Products/Nonveg/Nonveg'
-// >>>>>>> 1878cb4a052c405adbd320ee5ccd728d7dbaf432
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element:<Products/>,
+  },
+  {
+    path: "/categories",
+    element:<Categories/>,
   },
   {
     path: "/about",
@@ -41,34 +43,23 @@ const router = createBrowserRouter([
     element:<FastFood/>,
   },
   {
-    path: "/fastfood/nonveg",
+    path: "/nonveg",
     element:<Nonveg/>,
   },
-  // {
-  //   path: "/south",
-  //   element:<South/>,
-  // },
   {
     path: "/vegeterian",
     element:<Vegeterian/>,
   },
-  // {
-  //   path: "/login",
-  //   element:Login,
-  // },
+ 
+  {
+    path: "/login",
+    element:<Login/>,
+  },
 ]);
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-
-   {/* <Card/> */}
-   
-{/* <RouterProvider router={router} /> */}
-
-  
-<RouterProvider router={router} />
+  <RouterProvider router={router} />
 
  
   </>
