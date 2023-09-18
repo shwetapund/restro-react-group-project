@@ -1,6 +1,6 @@
 .imgfood{
     height: 250px;
-    width: 390px;
+    width: 360px;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
@@ -10,40 +10,52 @@
 }
 .cardf{
     box-shadow: 0 0 1px 0px  black;
-    width: 400px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 10px 10px 0 0;
-    padding: 5px;
+    width: 360px;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    border-radius: 10px ;
+ 
+  
+}
+.infoc{
+    padding: 8px;
 }
 .cardf:hover{
     box-shadow: 0 0 5px 1px  black;
-    width: 400px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 10px 10px 0 0;
-    padding: 5px;
     transition: 1s;
 }
-.text{
+.textc{
     font-weight: bold;
-    font-size: 20px;
-
+    margin-top: 10px;
+ 
 }
-.btncontact{
-    background-color: rgb(134, 36, 41);
+.textg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.btn{
+    background-color: rgb(23, 111, 25);
     color: white;
     border: none;
-    padding: 7px;
+    padding: 5px;
+    margin-top: 5px;
    border-radius: 5px;
     font-size: 18px;
+    /* margin-left: 160px; */
+    /* margin-top: 10px; */
+   /* display: flex;
+  position: fixed;
+   justify-content: end;
+   position: absolute;
+    left: 260px; */
   
 }
 .price{
     font-size: 20px;
 }
 .distance{
-    margin-left: 220px;
+    margin-left: 100px;
 }
 .offer{
 color: rgb(43, 43, 194);
@@ -93,4 +105,28 @@ transition: 1.5s;
 .star{
     text-align: center;
 color: #c93463;
+}
+
+@media screen and (max-width:600px) {
+    .cardf{
+       
+        width: 350px; 
+    }
+    .imgfood{
+        height: 250px;
+        width: 340px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */  
+    }
+    .btn{
+       
+        padding: 3px;
+       border-radius: 5px;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top:10px ;
+      
+    }
+
 }

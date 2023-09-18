@@ -7,11 +7,13 @@ export default function Card({ imgc, text, price, distance, offer }) {
     <div>
       <div className='cardf'>
         <img src={imgc} className='imgfood' alt="cardimg" />
-        <span className='text'>{text}</span> <span><button className='btn'> 4.0 ☆</button></span><br/>
+        <div className='infoc'>
+      <h5 className='textg'> <span className='textc'>{text}</span>  <button className='btn'> 4.0 ☆</button></h5><br/>
         <span className='price'> ₹ {price}</span>
         <span className='distance'>🕑 {distance} km   </span>
         <hr/>
         <span className='offer'>{offer} OFF up to 100 </span>
+        </div>
       </div>
     </div>
   );

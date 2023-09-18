@@ -72,9 +72,9 @@ export default function Home() {
                 </div>
             </div>
             <div className='variety'>
-                <Card imgc={dominos} text={"Domino's Pizza"} price={' 150 for one'} distance={'25 min'} offer={'offer'} />
-                <Card imgc={iceCream} text={'Natural Ice Cream'} price={'150 for one'} distance={'20 min'} offer={'offer'} />
-                <Card imgc={kfc} text={'KFC'} price={'200 for one'} distance={'18 min'} offer={'offer'} />
+                <Card imgc={dominos} text={"Domino's Pizza"} price={' 150 for one'} distance={'25 min'} offer={'50%'} />
+                <Card imgc={iceCream} text={'Natural Ice Cream'} price={'150 for one'} distance={'20 min'} offer={'20%'} />
+                <Card imgc={kfc} text={'KFC'} price={'200 for one'} distance={'18 min'} offer={'45%'} />
                 <div />
 
             </div>
